@@ -156,7 +156,7 @@ export const mintAmountsPerToken: Record<string, string> = {
   AAVE: valueToWei('100', 18),
   BAT: valueToWei('100000', 18),
   BUSD: valueToWei('10000', 18),
-  DAI: valueToWei('10000', 18),
+  DAI: valueToWei('1000', 18),
   ENJ: valueToWei('100000', 18),
   KNC: valueToWei('10000', 18),
   LEND: valueToWei('1000', 18), // Not available on v2, but to support v1 faucet
@@ -170,8 +170,10 @@ export const mintAmountsPerToken: Record<string, string> = {
   SUSD: valueToWei('10000', 18),
   TUSD: '0', // The TusdMinter contract already mints the maximum
   UNI: valueToWei('1000', 18),
-  USDC: valueToWei('10000', 6),
-  USDT: valueToWei('10000', 6),
+  USDC: valueToWei('1000', 6),
+  USDT: valueToWei('1000', 6),
+  CNGN: valueToWei('100', 6),
+  EDEN: valueToWei('100', 6),
   WBTC: valueToWei('1', 8),
   YFI: valueToWei('1', 18),
   ZRX: valueToWei('100000', 18),
